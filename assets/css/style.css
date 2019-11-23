@@ -8,6 +8,13 @@
     top: 60%;
     left: 0%;
 }
+.logo2{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 10%;
+    left: 40%;
+}
 /* nav bar */
 .signin, .signup, .signout{
     color: white;
@@ -17,12 +24,8 @@
 } 
  #submit, #search{
     color: white;
-    margin-top: 20px;
     font-size: 20px;
     font-family: sans-serif;
-}
-#submit{
-    padding-top: 50px;
 }
 #search{
     color: black;
