@@ -3,10 +3,10 @@
 /* image logo dimensions */
 .logo img{
     position: absolute;
-    height: 200px;
-    width: 200px;
-    top: 15%;
-    left: 45%;
+    height: 150px;
+    width: 150px;
+    top: 60%;
+    left: 0%;
 }
 /* nav bar */
 .signin, .signup, .signout{
@@ -40,7 +40,7 @@ header{
 }
 .pulse{
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100px;
@@ -104,38 +104,32 @@ header{
     display: block;
 }
 /*  footer tag */
-footer {
+footer, .footer1 {
     width: 100%;
-    position: absolute;
-    height: 150px;
+    position: relative;
+    height: 80px;
     margin-top: 40px;
+    left: 0;
+    bottom: 0;  
     background: linear-gradient(135deg,#29aae2,#1b4ea1);
+}
+.footer1 {
+    position: fixed;
 }
 /* footer nav style */
 nav h3{
     text-align:center;
-    padding-top: 70px;
+    padding-top: 30px;
     font-size: 1.5em;
     color: white;
 }
 /* footer image */
 .logo1 img{
     float: left;
-    height: 200px;
-    width: 200px;
+    height: 110px;
+    width: 110px;
     
 }
-/* a,img{
-    
-    height: 100px;
-    margin-right: 50px;
-} */
-
-/* a{
-    height: 20px;
-} */
-
-
 
 /* login and signup button in login.html signup.html */
 #btnLogin, #btnSignup{
